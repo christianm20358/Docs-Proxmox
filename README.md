@@ -25,23 +25,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/bidduam/Docs-Proxmox">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Proxmox Server Documentation</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Documenting the setup and progress of the Proxmox server for a small network.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/bidduam/Docs-Proxmox/wiki"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 
@@ -68,8 +61,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This repository is for documentation of my home lab. It will have a primary focus on Cybersecurity. The goal at the end of the project is to harden a small LAN according to the CIS 18 framework. The main interface server handling the majority of the network administration is a dedicated server with Proxmox, a debian based virtual environment that is ideal for managing multiple virtual machines and can also contain docker images. Some combination of the two will likely perform most of the network management.
 
@@ -98,19 +89,26 @@ These are the primary tools utilized in the home lab. Individual Docker containe
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<div align="center">
+  <a href="https://github.com/bidduam/Docs-Proxmox">
+    <img src="images/screenshot.png" alt="Screenshot" width="800" height="330">
+  </a>
+
+_For more examples, please refer to the [Documentation](https://github.com/bidduam/Docs-Proxmox/wiki)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- Timeline -->
+## Timeline
 
-- [x] Debian Container Hardening Completed - 4/5/22
-- [x] Added Kanban List - 4/5/22
-- [ ] Hardened Kernel
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [x] Debian Container Hardening Completed - 4-5-22
+- [x] Added Kanban List - 4-5-22
+- [ ] Created Network Layout Diagram - 4-5-22
+- [ ] Add DMZ
+- [ ] Add VPN Tunnel
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
