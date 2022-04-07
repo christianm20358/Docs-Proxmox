@@ -129,7 +129,7 @@ Project Link: [https://github.com/bidduam/Docs-Proxmox](https://github.com/biddu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-I wanted to acknowledge the invaluable assistance received from these resources. The open source community makes this kind of object possible, as well as the various content creators' guides. 
+I wanted to acknowledge the invaluable assistance received from these resources. The open source community makes this kind of project possible, as well as various content creator guides.
 
 * [Learn Linux TV - Proxmox Setup](https://www.youtube.com/channel/UCxQKHvKbmSzGMvUrVtJYnUA)
 * [GitHub Pages](https://pages.github.com)
