@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/bidduam/Docs-Proxmox">
+  <a href="https://github.com/christianm20358/Docs-Proxmox">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -34,7 +34,7 @@
   <p align="center">
     Documenting the setup and progress of the Proxmox server for a small network.
     <br />
-    <a href="https://github.com/bidduam/Docs-Proxmox/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/christianm20358/Docs-Proxmox/wiki"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository is for documentation of my home lab. It will have a primary focus on Cybersecurity. The goal at the end of the project is to harden a small LAN according to the CIS 18 framework. The main interface server handling the majority of the network administration is a dedicated server with Proxmox, a debian based virtual environment that is ideal for managing multiple virtual machines and can also contain docker images. Some combination of the two will likely perform most of the network management.
+This repository is for documentation of my home lab. The primary focus will be on Cybersecurity. The goal at the end of the project is to harden a small LAN according to the CIS 18 framework. The main interface server handling the majority of the network administration is a dedicated server installed with Proxmox, a debian based virtual environment that is ideal for managing multiple virtual machines and can also contain docker images. Some combination of the two will likely perform most of the network management.
 
 Here's why:
 
@@ -90,12 +90,12 @@ These are the primary tools utilized in the home lab. Individual Docker containe
 ## Main Server Resource Usage
 
 <div align="center">
-  <a href="https://github.com/bidduam/Docs-Proxmox">
+  <a href="https://github.com/christianm20358/Docs-Proxmox">
     <img src="images/screenshot.png" alt="Screenshot" width="800" height="330">
   </a>
 </div>
 
-_For more examples, please refer to the [Documentation](https://github.com/bidduam/Docs-Proxmox/wiki)_
+_For more examples, please refer to the [Documentation](https://github.com/christianm20358/Docs-Proxmox/wiki)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,12 +104,13 @@ _For more examples, please refer to the [Documentation](https://github.com/biddu
 <!-- Timeline -->
 ## Timeline
 
-- [x] Debian Container Hardening Completed - 4-5-22
+- [x] Debian Container Hardening - 4-5-22
 - [x] Added Kanban List - 4-5-22
-- [ ] Created Network Layout Diagram - 4-5-22
-- [ ] Add DMZ
+- [X] Set up Authentication Server
+- [ ] Set up Reverse Proxy
 - [ ] Add VPN Tunnel
 
+_For a more complete timeline, please refer to the [Kanban](https://github.com/christianm20358/Docs-Proxmox/projects/1)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,7 +121,7 @@ _For more examples, please refer to the [Documentation](https://github.com/biddu
 
 Christian Miller - [LinkedIn](https://www.linkedin.com/in/christian-miller-266684168/) - christianm20358@gmail.com
 
-Project Link: [https://github.com/bidduam/Docs-Proxmox](https://github.com/bidduam/Docs-Proxmox)
+Project Link: [https://github.com/christianm20358/Docs-Proxmox](https://github.com/christianm20358/Docs-Proxmox)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -129,10 +130,12 @@ Project Link: [https://github.com/bidduam/Docs-Proxmox](https://github.com/biddu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-I wanted to acknowledge the invaluable assistance received from these resources. The open source community makes this kind of project possible, as well as various content creator guides.
+I wanted to acknowledge the invaluable assistance received from these resources. The open source community makes this kind of project possible, as well as various content creator guides. I also want to share my appreciation for my colleagues for their advice and for sharing their knowledge along the way.
 
+* [Josh Guttormsen](https://www.linkedin.com/in/josh-guttormsen/)
+* [Justin Davis](https://www.linkedin.com/in/justin-davis-787b7b5b/)
 * [Learn Linux TV - Proxmox Setup](https://www.youtube.com/channel/UCxQKHvKbmSzGMvUrVtJYnUA)
-* [GitHub Pages](https://pages.github.com)
+* [Stack Overflow](https://stackoverflow.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
